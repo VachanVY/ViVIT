@@ -1,4 +1,4 @@
-# ViVIT
+# ViViT
 ![alt text](image.png)
 
 ## Embedding Video Clips
@@ -14,10 +14,18 @@
 ![alt text](image-4.png)
 
 ### Model 3: Factorized self-attention
+* ![alt text](image-9.png)\
+Factorised self-attention (Model 3). Within each transformer block, the multi-headed self-attention operation is factorised into two operations (indicated by striped boxes) that first only compute self-attention spatially, and then temporally\
 * ![alt text](image-5.png)
 
 ### Model 4: Factorised dot-product attention
 * ![alt text](image-6.png)
+
+---
+***Spatial Attention: Across H and W dimension\
+Temporal Attention:   Across T dimension***
+
+---
 
 ## Ablation
 ### Model Varients
